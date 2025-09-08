@@ -1,0 +1,163 @@
+/* Grundinställningar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.watermark {
+    position: fixed;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 10%;
+}
+
+.watermark img {
+    width: 300px;
+    height: auto;
+}
+
+
+nav {
+    background: linear-gradient(to bottom, #000, #fff);
+    margin-bottom:0px;
+}
+
+header {
+  background: linear-gradient(to bottom, #fff, #000000);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px; 
+  height: 200px;
+  
+  /* Header styling */
+}
+
+a {
+    color: darkblue;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+    font-size: 1.2rem;
+    font-weight: bold;
+} 
+
+a:hover {
+    color: darkolivegreen;
+}
+
+a:active {
+    text-decoration: none;  
+    color: red;
+}
+
+
+.font-gabriella {
+    font-family: 'Gabriela', serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+main {
+  background-color: #ffffff00;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Main styling */
+}
+
+section {
+  background-color: #ffffff00;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px; 
+  border-radius: 10px;
+  /* Sektion styling */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+section h2 {
+  margin-bottom: 10px; /* Rubrik underlag */
+}
+
+section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px; /* Lista styling */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px; /* Footer styling */
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  header, main, section, footer {
+    padding: 15px; /* Mobilanpassning */
+  }
+}
+
+
+
+/* Ashish stuff */
+
+nav {
+    padding:5px
+}
+.navigation {
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin:5px 0 5px 20px;
+}
+
+#slider {
+  max-width: 1000px;
+  position: relative;
+  margin: auto; 
+  background-color: #f0f0f0;
+  height: 100px;
+}
+
+/* Dennis make things */
+
+.members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.members ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 40px;
+  text-align: center;
+}
+
+.members li {
+  margin: 5px 0;
+}
